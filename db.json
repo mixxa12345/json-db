@@ -1,0 +1,13 @@
+{
+  "count": {"users": 1, "items": 0, "requests": 0},
+  "users": [
+    { "id": 0, "email": "user1@mail", "credits": [ {"id":0, "credit":10000} ]},
+    { "id": 1, "email": "user2@mail", "credits": [ {"id":1, "credit":1000} ]}
+  ],
+  "items": [
+
+  ],
+  "requests": [
+
+  ]
+}
