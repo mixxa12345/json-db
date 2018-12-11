@@ -48,7 +48,7 @@ module.exports = (req, res, next) => {
     let blocked = false;
     let sent = false;
     if (req.method !== 'GET') {
-        const POST_KEY = 'atXl4BvzAatlK9dFj8fWqGqUtTUhGw69NPBWu8VyJEF9eF4UTmgz4SIkK3gJCYkOuLydsLR0WxYsCPIP3LPAWjkX6jnlFRo8ea9e';
+        const POST_KEY = require("./key");
         const noKey = 'NOT_FOUND_KEY';
         const key = req.headers.key || noKey;
         const resource = (req.path).split('/'); //['', path, :id]
