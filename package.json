@@ -1,0 +1,13 @@
+{
+  "name": "bp-market-db",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "start_local": "json-server --host 203.159.31.72 --watch db.json --middlewares ./middleware/guard.js"
+  }
+}
